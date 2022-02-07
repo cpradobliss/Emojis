@@ -8,7 +8,8 @@
 import UIKit
 
 class EmojiCell: UICollectionViewCell {
-    var emojiImageView = UIImageView()
+    
+    private var emojiImageView = UIImageView()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -18,5 +19,14 @@ class EmojiCell: UICollectionViewCell {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        emojiImageView.frame = bounds
+    }
+    
+    func loadImage(fromUrl url: String) {
+        
     }
 }

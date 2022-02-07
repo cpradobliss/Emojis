@@ -19,15 +19,6 @@
 		34DB5E5E27A9A7F700BB43C9 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E5D27A9A7F700BB43C9 /* UIImageView+Extensions.swift */; };
 		34DB5E6027A9A8AD00BB43C9 /* EmojiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E5F27A9A8AD00BB43C9 /* EmojiService.swift */; };
 		34DB5E6527A9A92D00BB43C9 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E6427A9A92D00BB43C9 /* LandingViewController.swift */; };
-		34DB5E6827A9AB1A00BB43C9 /* EmojiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E5F27A9A8AD00BB43C9 /* EmojiService.swift */; };
-		34DB5E6927A9AB1A00BB43C9 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E6427A9A92D00BB43C9 /* LandingViewController.swift */; };
-		34DB5E6A27A9AB1A00BB43C9 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E5D27A9A7F700BB43C9 /* UIImageView+Extensions.swift */; };
-		34DB5E6B27A9AB1A00BB43C9 /* EmojiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E2827A9941300BB43C9 /* EmojiListViewController.swift */; };
-		34DB5E6C27A9AB1A00BB43C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E2427A9941300BB43C9 /* AppDelegate.swift */; };
-		34DB5E6D27A9AB1A00BB43C9 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E5B27A9A7AC00BB43C9 /* EmojiModel.swift */; };
-		34DB5E6E27A9AB1A00BB43C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E2627A9941300BB43C9 /* SceneDelegate.swift */; };
-		34DB5E7127A9AB1A00BB43C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DB5E2F27A9941500BB43C9 /* LaunchScreen.storyboard */; };
-		34DB5E7227A9AB1A00BB43C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DB5E2D27A9941500BB43C9 /* Assets.xcassets */; };
 		34DB5E7927A9BC8700BB43C9 /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB5E7827A9BC8700BB43C9 /* EmojiCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,8 +56,6 @@
 		34DB5E5D27A9A7F700BB43C9 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		34DB5E5F27A9A8AD00BB43C9 /* EmojiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiService.swift; sourceTree = "<group>"; };
 		34DB5E6427A9A92D00BB43C9 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
-		34DB5E7627A9AB1A00BB43C9 /* EmojisApp copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmojisApp copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34DB5E7727A9AB1A00BB43C9 /* EmojisApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EmojisApp copy-Info.plist"; path = "/Users/charlesprado/Desktop/EmojisApp/EmojisApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		34DB5E7827A9BC8700BB43C9 /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,13 +81,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34DB5E6F27A9AB1A00BB43C9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -109,7 +91,6 @@
 				34DB5E3A27A9941500BB43C9 /* EmojisAppTests */,
 				34DB5E4427A9941500BB43C9 /* EmojisAppUITests */,
 				34DB5E2227A9941300BB43C9 /* Products */,
-				34DB5E7727A9AB1A00BB43C9 /* EmojisApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,7 +100,6 @@
 				34DB5E2127A9941300BB43C9 /* EmojisApp.app */,
 				34DB5E3727A9941500BB43C9 /* EmojisAppTests.xctest */,
 				34DB5E4127A9941500BB43C9 /* EmojisAppUITests.xctest */,
-				34DB5E7627A9AB1A00BB43C9 /* EmojisApp copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,23 +211,6 @@
 			productReference = 34DB5E4127A9941500BB43C9 /* EmojisAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		34DB5E6627A9AB1A00BB43C9 /* EmojisApp copy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 34DB5E7327A9AB1A00BB43C9 /* Build configuration list for PBXNativeTarget "EmojisApp copy" */;
-			buildPhases = (
-				34DB5E6727A9AB1A00BB43C9 /* Sources */,
-				34DB5E6F27A9AB1A00BB43C9 /* Frameworks */,
-				34DB5E7027A9AB1A00BB43C9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "EmojisApp copy";
-			productName = EmojisApp;
-			productReference = 34DB5E7627A9AB1A00BB43C9 /* EmojisApp copy.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -287,7 +250,6 @@
 				34DB5E2027A9941300BB43C9 /* EmojisApp */,
 				34DB5E3627A9941500BB43C9 /* EmojisAppTests */,
 				34DB5E4027A9941500BB43C9 /* EmojisAppUITests */,
-				34DB5E6627A9AB1A00BB43C9 /* EmojisApp copy */,
 			);
 		};
 /* End PBXProject section */
@@ -313,15 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		34DB5E7027A9AB1A00BB43C9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34DB5E7127A9AB1A00BB43C9 /* LaunchScreen.storyboard in Resources */,
-				34DB5E7227A9AB1A00BB43C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,20 +310,6 @@
 			files = (
 				34DB5E4627A9941500BB43C9 /* EmojisAppUITests.swift in Sources */,
 				34DB5E4827A9941500BB43C9 /* EmojisAppUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		34DB5E6727A9AB1A00BB43C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34DB5E6827A9AB1A00BB43C9 /* EmojiService.swift in Sources */,
-				34DB5E6927A9AB1A00BB43C9 /* LandingViewController.swift in Sources */,
-				34DB5E6A27A9AB1A00BB43C9 /* UIImageView+Extensions.swift in Sources */,
-				34DB5E6B27A9AB1A00BB43C9 /* EmojiListViewController.swift in Sources */,
-				34DB5E6C27A9AB1A00BB43C9 /* AppDelegate.swift in Sources */,
-				34DB5E6D27A9AB1A00BB43C9 /* EmojiModel.swift in Sources */,
-				34DB5E6E27A9AB1A00BB43C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -505,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -639,58 +578,6 @@
 			};
 			name = Release;
 		};
-		34DB5E7427A9AB1A00BB43C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "EmojisApp copy-Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.EmojisApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		34DB5E7527A9AB1A00BB43C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "EmojisApp copy-Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.EmojisApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -726,15 +613,6 @@
 			buildConfigurations = (
 				34DB5E5227A9941500BB43C9 /* Debug */,
 				34DB5E5327A9941500BB43C9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		34DB5E7327A9AB1A00BB43C9 /* Build configuration list for PBXNativeTarget "EmojisApp copy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				34DB5E7427A9AB1A00BB43C9 /* Debug */,
-				34DB5E7527A9AB1A00BB43C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
